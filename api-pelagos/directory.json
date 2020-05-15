@@ -1,0 +1,1240 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "limit": {
+      "type": "integer"
+    },
+    "offset": {
+      "type": "integer"
+    },
+    "entries": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "args": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "source": {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "args": {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string"
+                        }
+                      },
+                      "required": ["url"]
+                    }
+                  },
+                  "required": ["type", "args"]
+                },
+                "visible": {
+                  "type": "boolean"
+                },
+                "color": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "title",
+                "description",
+                "source",
+                "visible",
+                "color"
+              ]
+            },
+            "type": {
+              "type": "string"
+            }
+          },
+          "required": ["args", "type"]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "args": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "source": {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "args": {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string"
+                        }
+                      },
+                      "required": ["url"]
+                    }
+                  },
+                  "required": ["type", "args"]
+                },
+                "visible": {
+                  "type": "boolean"
+                },
+                "color": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "title",
+                "description",
+                "source",
+                "visible",
+                "color"
+              ]
+            },
+            "type": {
+              "type": "string"
+            }
+          },
+          "required": ["args", "type"]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "args": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "source": {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "args": {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string"
+                        }
+                      },
+                      "required": ["url"]
+                    }
+                  },
+                  "required": ["type", "args"]
+                },
+                "visible": {
+                  "type": "boolean"
+                },
+                "color": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "title",
+                "description",
+                "source",
+                "visible",
+                "color"
+              ]
+            },
+            "type": {
+              "type": "string"
+            }
+          },
+          "required": ["args", "type"]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "args": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "meta": {
+                  "type": "object",
+                  "properties": {
+                    "reports": {
+                      "type": "object",
+                      "properties": {
+                        "regions": {
+                          "type": "object",
+                          "properties": {
+                            "EEZ": {
+                              "type": "object",
+                              "properties": {
+                                "cartodbColumn": {
+                                  "type": "string"
+                                },
+                                "format": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": ["cartodbColumn", "format"]
+                            }
+                          },
+                          "required": ["EEZ"]
+                        }
+                      },
+                      "required": ["regions"]
+                    }
+                  },
+                  "required": ["reports"]
+                },
+                "source": {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "args": {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string"
+                        }
+                      },
+                      "required": ["url"]
+                    }
+                  },
+                  "required": ["type", "args"]
+                },
+                "visible": {
+                  "type": "boolean"
+                },
+                "color": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "title",
+                "description",
+                "meta",
+                "source",
+                "visible",
+                "color"
+              ]
+            },
+            "type": {
+              "type": "string"
+            }
+          },
+          "required": ["args", "type"]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "args": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "source": {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "args": {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string"
+                        }
+                      },
+                      "required": ["url"]
+                    }
+                  },
+                  "required": ["type", "args"]
+                },
+                "visible": {
+                  "type": "boolean"
+                },
+                "color": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "title",
+                "description",
+                "source",
+                "visible",
+                "color"
+              ]
+            },
+            "type": {
+              "type": "string"
+            }
+          },
+          "required": ["args", "type"]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "args": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "meta": {
+                  "type": "object",
+                  "properties": {
+                    "reports": {
+                      "type": "object",
+                      "properties": {
+                        "regions": {
+                          "type": "object",
+                          "properties": {
+                            "RFMO": {
+                              "type": "object",
+                              "properties": {
+                                "cartodbColumn": {
+                                  "type": "string"
+                                },
+                                "format": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": ["cartodbColumn", "format"]
+                            }
+                          },
+                          "required": ["RFMO"]
+                        }
+                      },
+                      "required": ["regions"]
+                    }
+                  },
+                  "required": ["reports"]
+                },
+                "source": {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "args": {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string"
+                        }
+                      },
+                      "required": ["url"]
+                    }
+                  },
+                  "required": ["type", "args"]
+                },
+                "visible": {
+                  "type": "boolean"
+                },
+                "color": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "title",
+                "description",
+                "meta",
+                "source",
+                "visible",
+                "color"
+              ]
+            },
+            "type": {
+              "type": "string"
+            }
+          },
+          "required": ["args", "type"]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "args": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "visible": {
+                  "type": "boolean"
+                },
+                "source": {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "args": {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string"
+                        }
+                      },
+                      "required": ["url"]
+                    }
+                  },
+                  "required": ["type", "args"]
+                },
+                "seriesTilesets": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "args": {
+                          "type": "object",
+                          "properties": {
+                            "title": {
+                              "type": "string"
+                            },
+                            "color": {
+                              "type": "string"
+                            },
+                            "visible": {
+                              "type": "boolean"
+                            },
+                            "source": {
+                              "type": "object",
+                              "properties": {
+                                "type": {
+                                  "type": "string"
+                                },
+                                "args": {
+                                  "type": "object",
+                                  "properties": {
+                                    "url": {
+                                      "type": "string"
+                                    }
+                                  },
+                                  "required": ["url"]
+                                }
+                              },
+                              "required": ["type", "args"]
+                            },
+                            "category": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "title",
+                            "color",
+                            "visible",
+                            "source",
+                            "category"
+                          ]
+                        }
+                      },
+                      "required": ["type", "args"]
+                    }
+                  ]
+                },
+                "columns": {
+                  "type": "object",
+                  "properties": {
+                    "longitude": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "hidden": {
+                          "type": "boolean"
+                        },
+                        "source": {
+                          "type": "object",
+                          "properties": {
+                            "longitude": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": ["longitude"]
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": ["type", "hidden", "source", "name"]
+                    },
+                    "latitude": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "hidden": {
+                          "type": "boolean"
+                        },
+                        "source": {
+                          "type": "object",
+                          "properties": {
+                            "latitude": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": ["latitude"]
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": ["type", "hidden", "source", "name"]
+                    },
+                    "sigma": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "source": {
+                          "type": "object",
+                          "properties": {
+                            "sigma": {
+                              "type": "integer"
+                            },
+                            "hover": {
+                              "type": "number"
+                            },
+                            "selected": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": ["sigma", "hover", "selected"]
+                        },
+                        "min": {
+                          "type": "integer"
+                        },
+                        "max": {
+                          "type": "integer"
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": ["type", "source", "min", "max", "name"]
+                    },
+                    "weight": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "source": {
+                          "type": "object",
+                          "properties": {
+                            "weight": {
+                              "type": "number"
+                            },
+                            "hover": {
+                              "type": "integer"
+                            },
+                            "selected": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": ["weight", "hover", "selected"]
+                        },
+                        "min": {
+                          "type": "integer"
+                        },
+                        "max": {
+                          "type": "number"
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": ["type", "source", "min", "max", "name"]
+                    },
+                    "time": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "hidden": {
+                          "type": "boolean"
+                        },
+                        "source": {
+                          "type": "object",
+                          "properties": {
+                            "datetime": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": ["datetime"]
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": ["type", "hidden", "source", "name"]
+                    },
+                    "filter": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "source": {
+                          "type": "object",
+                          "properties": {
+                            "_": {
+                              "type": "null"
+                            },
+                            "timerange": {
+                              "type": "integer"
+                            },
+                            "Flags": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": ["_", "timerange", "Flags"]
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": ["type", "source", "name"]
+                    },
+                    "selected": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "hidden": {
+                          "type": "boolean"
+                        },
+                        "source": {
+                          "type": "object",
+                          "properties": {
+                            "selected": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": ["selected"]
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": ["type", "hidden", "source", "name"]
+                    },
+                    "hover": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "hidden": {
+                          "type": "boolean"
+                        },
+                        "source": {
+                          "type": "object",
+                          "properties": {
+                            "hover": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": ["hover"]
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": ["type", "hidden", "source", "name"]
+                    }
+                  },
+                  "required": [
+                    "longitude",
+                    "latitude",
+                    "sigma",
+                    "weight",
+                    "time",
+                    "filter",
+                    "selected",
+                    "hover"
+                  ]
+                },
+                "uniforms": {
+                  "type": "object",
+                  "properties": {
+                    "red": {
+                      "type": "object",
+                      "properties": {
+                        "value": {
+                          "type": "integer"
+                        },
+                        "min": {
+                          "type": "integer"
+                        },
+                        "max": {
+                          "type": "integer"
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": ["value", "min", "max", "name"]
+                    },
+                    "green": {
+                      "type": "object",
+                      "properties": {
+                        "value": {
+                          "type": "number"
+                        },
+                        "min": {
+                          "type": "integer"
+                        },
+                        "max": {
+                          "type": "integer"
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": ["value", "min", "max", "name"]
+                    },
+                    "blue": {
+                      "type": "object",
+                      "properties": {
+                        "value": {
+                          "type": "number"
+                        },
+                        "min": {
+                          "type": "integer"
+                        },
+                        "max": {
+                          "type": "integer"
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": ["value", "min", "max", "name"]
+                    },
+                    "selected_red": {
+                      "type": "object",
+                      "properties": {
+                        "value": {
+                          "type": "integer"
+                        },
+                        "min": {
+                          "type": "integer"
+                        },
+                        "max": {
+                          "type": "integer"
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": ["value", "min", "max", "name"]
+                    },
+                    "selected_green": {
+                      "type": "object",
+                      "properties": {
+                        "value": {
+                          "type": "integer"
+                        },
+                        "min": {
+                          "type": "integer"
+                        },
+                        "max": {
+                          "type": "integer"
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": ["value", "min", "max", "name"]
+                    },
+                    "selected_blue": {
+                      "type": "object",
+                      "properties": {
+                        "value": {
+                          "type": "integer"
+                        },
+                        "min": {
+                          "type": "integer"
+                        },
+                        "max": {
+                          "type": "integer"
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": ["value", "min", "max", "name"]
+                    },
+                    "hover_red": {
+                      "type": "object",
+                      "properties": {
+                        "value": {
+                          "type": "number"
+                        },
+                        "min": {
+                          "type": "integer"
+                        },
+                        "max": {
+                          "type": "integer"
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": ["value", "min", "max", "name"]
+                    },
+                    "hover_green": {
+                      "type": "object",
+                      "properties": {
+                        "value": {
+                          "type": "number"
+                        },
+                        "min": {
+                          "type": "integer"
+                        },
+                        "max": {
+                          "type": "integer"
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": ["value", "min", "max", "name"]
+                    },
+                    "hover_blue": {
+                      "type": "object",
+                      "properties": {
+                        "value": {
+                          "type": "integer"
+                        },
+                        "min": {
+                          "type": "integer"
+                        },
+                        "max": {
+                          "type": "integer"
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": ["value", "min", "max", "name"]
+                    }
+                  },
+                  "required": [
+                    "red",
+                    "green",
+                    "blue",
+                    "selected_red",
+                    "selected_green",
+                    "selected_blue",
+                    "hover_red",
+                    "hover_green",
+                    "hover_blue"
+                  ]
+                },
+                "selections": {
+                  "type": "object",
+                  "properties": {
+                    "Flags": {
+                      "type": "object",
+                      "properties": {
+                        "max_range_count": {
+                          "type": "integer"
+                        },
+                        "header": {
+                          "type": "object",
+                          "properties": {
+                            "length": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": ["length"]
+                        },
+                        "data": {
+                          "type": "object",
+                          "properties": {
+                            "category": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "object",
+                                  "properties": {
+                                    "__jsonclass__": {
+                                      "type": "array",
+                                      "items": [
+                                        {
+                                          "type": "string"
+                                        },
+                                        {
+                                          "type": "string"
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  "required": ["__jsonclass__"]
+                                },
+                                {
+                                  "type": "object",
+                                  "properties": {
+                                    "__jsonclass__": {
+                                      "type": "array",
+                                      "items": [
+                                        {
+                                          "type": "string"
+                                        },
+                                        {
+                                          "type": "string"
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  "required": ["__jsonclass__"]
+                                }
+                              ]
+                            }
+                          },
+                          "required": ["category"]
+                        },
+                        "sortcols": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "string"
+                            }
+                          ]
+                        }
+                      },
+                      "required": [
+                        "max_range_count",
+                        "header",
+                        "data",
+                        "sortcols"
+                      ]
+                    },
+                    "selected": {
+                      "type": "object",
+                      "properties": {
+                        "header": {
+                          "type": "object",
+                          "properties": {
+                            "length": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": ["length"]
+                        },
+                        "data": {
+                          "type": "object",
+                          "properties": {
+                            "seriesgroup": {
+                              "type": "array",
+                              "items": {}
+                            }
+                          },
+                          "required": ["seriesgroup"]
+                        },
+                        "sortcols": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "string"
+                            }
+                          ]
+                        },
+                        "max_range_count": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "header",
+                        "data",
+                        "sortcols",
+                        "max_range_count"
+                      ]
+                    },
+                    "info": {
+                      "type": "object",
+                      "properties": {
+                        "header": {
+                          "type": "object",
+                          "properties": {
+                            "length": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": ["length"]
+                        },
+                        "data": {
+                          "type": "object",
+                          "properties": {
+                            "seriesgroup": {
+                              "type": "array",
+                              "items": {}
+                            }
+                          },
+                          "required": ["seriesgroup"]
+                        },
+                        "sortcols": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "string"
+                            }
+                          ]
+                        },
+                        "max_range_count": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "header",
+                        "data",
+                        "sortcols",
+                        "max_range_count"
+                      ]
+                    },
+                    "hover": {
+                      "type": "object",
+                      "properties": {
+                        "header": {
+                          "type": "object",
+                          "properties": {
+                            "length": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": ["length"]
+                        },
+                        "data": {
+                          "type": "object",
+                          "properties": {
+                            "seriesgroup": {
+                              "type": "array",
+                              "items": {}
+                            }
+                          },
+                          "required": ["seriesgroup"]
+                        },
+                        "sortcols": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "string"
+                            }
+                          ]
+                        },
+                        "max_range_count": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "header",
+                        "data",
+                        "sortcols",
+                        "max_range_count"
+                      ]
+                    },
+                    "timerange": {
+                      "type": "object",
+                      "properties": {
+                        "header": {
+                          "type": "object",
+                          "properties": {
+                            "length": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": ["length"]
+                        },
+                        "data": {
+                          "type": "object",
+                          "properties": {
+                            "datetime": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                },
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            }
+                          },
+                          "required": ["datetime"]
+                        },
+                        "sortcols": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "string"
+                            }
+                          ]
+                        },
+                        "max_range_count": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "header",
+                        "data",
+                        "sortcols",
+                        "max_range_count"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "Flags",
+                    "selected",
+                    "info",
+                    "hover",
+                    "timerange"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "title",
+                "visible",
+                "source",
+                "seriesTilesets",
+                "columns",
+                "uniforms",
+                "selections"
+              ]
+            },
+            "type": {
+              "type": "string"
+            }
+          },
+          "required": ["args", "type"]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "args": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "source": {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "args": {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string"
+                        }
+                      },
+                      "required": ["url"]
+                    }
+                  },
+                  "required": ["type", "args"]
+                },
+                "visible": {
+                  "type": "boolean"
+                },
+                "color": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "title",
+                "description",
+                "source",
+                "visible",
+                "color"
+              ]
+            },
+            "type": {
+              "type": "string"
+            }
+          },
+          "required": ["args", "type"]
+        }
+      ]
+    },
+    "total": {
+      "type": "integer"
+    }
+  },
+  "required": ["limit", "offset", "entries", "total"]
+}
