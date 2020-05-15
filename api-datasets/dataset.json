@@ -1,0 +1,89 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "alias": {
+      "type": "array",
+      "items": [
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "startDate": {
+      "type": "string"
+    },
+    "endDate": {
+      "type": "string"
+    },
+    "externalResources": {
+      "type": "object",
+      "properties": {
+        "loiteringNextPortUrl": {
+          "type": "string"
+        },
+        "encountersNextPortUrl": {
+          "type": "string"
+        }
+      },
+      "required": ["loiteringNextPortUrl", "encountersNextPortUrl"]
+    },
+    "eventsTable": {
+      "type": "string"
+    },
+    "tracksTable": {
+      "type": "string"
+    },
+    "vesselIndex": {
+      "type": "string"
+    },
+    "supportedEventTypes": {
+      "type": "array",
+      "items": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "dataDownloadPortalInfo": {
+      "type": "null"
+    },
+    "tilesets": {
+      "type": "null"
+    },
+    "createdAt": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "alias",
+    "id",
+    "name",
+    "description",
+    "startDate",
+    "endDate",
+    "externalResources",
+    "eventsTable",
+    "tracksTable",
+    "vesselIndex",
+    "supportedEventTypes",
+    "dataDownloadPortalInfo",
+    "tilesets",
+    "createdAt"
+  ]
+}

@@ -1,0 +1,1294 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "alias": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "startDate": {
+          "type": "null"
+        },
+        "endDate": {
+          "type": "null"
+        },
+        "externalResources": {
+          "type": "null"
+        },
+        "eventsTable": {
+          "type": "null"
+        },
+        "tracksTable": {
+          "type": "string"
+        },
+        "vesselIndex": {
+          "type": "string"
+        },
+        "supportedEventTypes": {
+          "type": "null"
+        },
+        "dataDownloadPortalInfo": {
+          "type": "null"
+        },
+        "tilesets": {
+          "type": "null"
+        },
+        "createdAt": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "alias",
+        "id",
+        "name",
+        "description",
+        "startDate",
+        "endDate",
+        "externalResources",
+        "eventsTable",
+        "tracksTable",
+        "vesselIndex",
+        "supportedEventTypes",
+        "dataDownloadPortalInfo",
+        "tilesets",
+        "createdAt"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "alias": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "startDate": {
+          "type": "null"
+        },
+        "endDate": {
+          "type": "null"
+        },
+        "externalResources": {
+          "type": "null"
+        },
+        "eventsTable": {
+          "type": "string"
+        },
+        "tracksTable": {
+          "type": "string"
+        },
+        "vesselIndex": {
+          "type": "string"
+        },
+        "supportedEventTypes": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "dataDownloadPortalInfo": {
+          "type": "null"
+        },
+        "tilesets": {
+          "type": "array",
+          "items": {}
+        },
+        "createdAt": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "alias",
+        "id",
+        "name",
+        "description",
+        "startDate",
+        "endDate",
+        "externalResources",
+        "eventsTable",
+        "tracksTable",
+        "vesselIndex",
+        "supportedEventTypes",
+        "dataDownloadPortalInfo",
+        "tilesets",
+        "createdAt"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "alias": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "startDate": {
+          "type": "null"
+        },
+        "endDate": {
+          "type": "null"
+        },
+        "externalResources": {
+          "type": "null"
+        },
+        "eventsTable": {
+          "type": "null"
+        },
+        "tracksTable": {
+          "type": "string"
+        },
+        "vesselIndex": {
+          "type": "string"
+        },
+        "supportedEventTypes": {
+          "type": "null"
+        },
+        "dataDownloadPortalInfo": {
+          "type": "null"
+        },
+        "tilesets": {
+          "type": "null"
+        },
+        "createdAt": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "alias",
+        "id",
+        "name",
+        "description",
+        "startDate",
+        "endDate",
+        "externalResources",
+        "eventsTable",
+        "tracksTable",
+        "vesselIndex",
+        "supportedEventTypes",
+        "dataDownloadPortalInfo",
+        "tilesets",
+        "createdAt"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "alias": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "startDate": {
+          "type": "null"
+        },
+        "endDate": {
+          "type": "null"
+        },
+        "externalResources": {
+          "type": "null"
+        },
+        "eventsTable": {
+          "type": "null"
+        },
+        "tracksTable": {
+          "type": "string"
+        },
+        "vesselIndex": {
+          "type": "string"
+        },
+        "supportedEventTypes": {
+          "type": "null"
+        },
+        "dataDownloadPortalInfo": {
+          "type": "null"
+        },
+        "tilesets": {
+          "type": "null"
+        },
+        "createdAt": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "alias",
+        "id",
+        "name",
+        "description",
+        "startDate",
+        "endDate",
+        "externalResources",
+        "eventsTable",
+        "tracksTable",
+        "vesselIndex",
+        "supportedEventTypes",
+        "dataDownloadPortalInfo",
+        "tilesets",
+        "createdAt"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "alias": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "startDate": {
+          "type": "null"
+        },
+        "endDate": {
+          "type": "null"
+        },
+        "externalResources": {
+          "type": "null"
+        },
+        "eventsTable": {
+          "type": "null"
+        },
+        "tracksTable": {
+          "type": "string"
+        },
+        "vesselIndex": {
+          "type": "string"
+        },
+        "supportedEventTypes": {
+          "type": "null"
+        },
+        "dataDownloadPortalInfo": {
+          "type": "null"
+        },
+        "tilesets": {
+          "type": "null"
+        },
+        "createdAt": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "alias",
+        "id",
+        "name",
+        "description",
+        "startDate",
+        "endDate",
+        "externalResources",
+        "eventsTable",
+        "tracksTable",
+        "vesselIndex",
+        "supportedEventTypes",
+        "dataDownloadPortalInfo",
+        "tilesets",
+        "createdAt"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "alias": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "startDate": {
+          "type": "null"
+        },
+        "endDate": {
+          "type": "null"
+        },
+        "externalResources": {
+          "type": "null"
+        },
+        "eventsTable": {
+          "type": "null"
+        },
+        "tracksTable": {
+          "type": "string"
+        },
+        "vesselIndex": {
+          "type": "string"
+        },
+        "supportedEventTypes": {
+          "type": "null"
+        },
+        "dataDownloadPortalInfo": {
+          "type": "null"
+        },
+        "tilesets": {
+          "type": "null"
+        },
+        "createdAt": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "alias",
+        "id",
+        "name",
+        "description",
+        "startDate",
+        "endDate",
+        "externalResources",
+        "eventsTable",
+        "tracksTable",
+        "vesselIndex",
+        "supportedEventTypes",
+        "dataDownloadPortalInfo",
+        "tilesets",
+        "createdAt"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "alias": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "startDate": {
+          "type": "null"
+        },
+        "endDate": {
+          "type": "null"
+        },
+        "externalResources": {
+          "type": "null"
+        },
+        "eventsTable": {
+          "type": "null"
+        },
+        "tracksTable": {
+          "type": "null"
+        },
+        "vesselIndex": {
+          "type": "null"
+        },
+        "supportedEventTypes": {
+          "type": "null"
+        },
+        "dataDownloadPortalInfo": {
+          "type": "null"
+        },
+        "tilesets": {
+          "type": "array",
+          "items": {}
+        },
+        "createdAt": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "alias",
+        "id",
+        "name",
+        "description",
+        "startDate",
+        "endDate",
+        "externalResources",
+        "eventsTable",
+        "tracksTable",
+        "vesselIndex",
+        "supportedEventTypes",
+        "dataDownloadPortalInfo",
+        "tilesets",
+        "createdAt"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "alias": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "startDate": {
+          "type": "null"
+        },
+        "endDate": {
+          "type": "null"
+        },
+        "externalResources": {
+          "type": "null"
+        },
+        "eventsTable": {
+          "type": "null"
+        },
+        "tracksTable": {
+          "type": "null"
+        },
+        "vesselIndex": {
+          "type": "null"
+        },
+        "supportedEventTypes": {
+          "type": "null"
+        },
+        "dataDownloadPortalInfo": {
+          "type": "null"
+        },
+        "tilesets": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "createdAt": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "alias",
+        "id",
+        "name",
+        "description",
+        "startDate",
+        "endDate",
+        "externalResources",
+        "eventsTable",
+        "tracksTable",
+        "vesselIndex",
+        "supportedEventTypes",
+        "dataDownloadPortalInfo",
+        "tilesets",
+        "createdAt"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "alias": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "startDate": {
+          "type": "null"
+        },
+        "endDate": {
+          "type": "null"
+        },
+        "externalResources": {
+          "type": "null"
+        },
+        "eventsTable": {
+          "type": "null"
+        },
+        "tracksTable": {
+          "type": "null"
+        },
+        "vesselIndex": {
+          "type": "null"
+        },
+        "supportedEventTypes": {
+          "type": "null"
+        },
+        "dataDownloadPortalInfo": {
+          "type": "null"
+        },
+        "tilesets": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "createdAt": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "alias",
+        "id",
+        "name",
+        "description",
+        "startDate",
+        "endDate",
+        "externalResources",
+        "eventsTable",
+        "tracksTable",
+        "vesselIndex",
+        "supportedEventTypes",
+        "dataDownloadPortalInfo",
+        "tilesets",
+        "createdAt"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "alias": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "startDate": {
+          "type": "null"
+        },
+        "endDate": {
+          "type": "null"
+        },
+        "externalResources": {
+          "type": "null"
+        },
+        "eventsTable": {
+          "type": "null"
+        },
+        "tracksTable": {
+          "type": "null"
+        },
+        "vesselIndex": {
+          "type": "null"
+        },
+        "supportedEventTypes": {
+          "type": "null"
+        },
+        "dataDownloadPortalInfo": {
+          "type": "null"
+        },
+        "tilesets": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "createdAt": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "alias",
+        "id",
+        "name",
+        "description",
+        "startDate",
+        "endDate",
+        "externalResources",
+        "eventsTable",
+        "tracksTable",
+        "vesselIndex",
+        "supportedEventTypes",
+        "dataDownloadPortalInfo",
+        "tilesets",
+        "createdAt"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "alias": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "startDate": {
+          "type": "null"
+        },
+        "endDate": {
+          "type": "null"
+        },
+        "externalResources": {
+          "type": "null"
+        },
+        "eventsTable": {
+          "type": "string"
+        },
+        "tracksTable": {
+          "type": "string"
+        },
+        "vesselIndex": {
+          "type": "string"
+        },
+        "supportedEventTypes": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "dataDownloadPortalInfo": {
+          "type": "null"
+        },
+        "tilesets": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "createdAt": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "alias",
+        "id",
+        "name",
+        "description",
+        "startDate",
+        "endDate",
+        "externalResources",
+        "eventsTable",
+        "tracksTable",
+        "vesselIndex",
+        "supportedEventTypes",
+        "dataDownloadPortalInfo",
+        "tilesets",
+        "createdAt"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "alias": {
+          "type": "array",
+          "items": {}
+        },
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "startDate": {
+          "type": "string"
+        },
+        "endDate": {
+          "type": "string"
+        },
+        "externalResources": {
+          "type": "object",
+          "properties": {
+            "loiteringNextPortUrl": {
+              "type": "string"
+            },
+            "encountersNextPortUrl": {
+              "type": "string"
+            }
+          },
+          "required": ["loiteringNextPortUrl", "encountersNextPortUrl"]
+        },
+        "eventsTable": {
+          "type": "string"
+        },
+        "tracksTable": {
+          "type": "string"
+        },
+        "vesselIndex": {
+          "type": "string"
+        },
+        "supportedEventTypes": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "dataDownloadPortalInfo": {
+          "type": "null"
+        },
+        "tilesets": {
+          "type": "null"
+        },
+        "createdAt": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "alias",
+        "id",
+        "name",
+        "description",
+        "startDate",
+        "endDate",
+        "externalResources",
+        "eventsTable",
+        "tracksTable",
+        "vesselIndex",
+        "supportedEventTypes",
+        "dataDownloadPortalInfo",
+        "tilesets",
+        "createdAt"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "alias": {
+          "type": "null"
+        },
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "startDate": {
+          "type": "null"
+        },
+        "endDate": {
+          "type": "null"
+        },
+        "externalResources": {
+          "type": "null"
+        },
+        "eventsTable": {
+          "type": "null"
+        },
+        "tracksTable": {
+          "type": "null"
+        },
+        "vesselIndex": {
+          "type": "null"
+        },
+        "supportedEventTypes": {
+          "type": "null"
+        },
+        "dataDownloadPortalInfo": {
+          "type": "object",
+          "properties": {
+            "gcsFolder": {
+              "type": "string"
+            }
+          },
+          "required": ["gcsFolder"]
+        },
+        "tilesets": {
+          "type": "null"
+        },
+        "createdAt": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "alias",
+        "id",
+        "name",
+        "description",
+        "startDate",
+        "endDate",
+        "externalResources",
+        "eventsTable",
+        "tracksTable",
+        "vesselIndex",
+        "supportedEventTypes",
+        "dataDownloadPortalInfo",
+        "tilesets",
+        "createdAt"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "alias": {
+          "type": "null"
+        },
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "startDate": {
+          "type": "null"
+        },
+        "endDate": {
+          "type": "null"
+        },
+        "externalResources": {
+          "type": "null"
+        },
+        "eventsTable": {
+          "type": "null"
+        },
+        "tracksTable": {
+          "type": "null"
+        },
+        "vesselIndex": {
+          "type": "null"
+        },
+        "supportedEventTypes": {
+          "type": "null"
+        },
+        "dataDownloadPortalInfo": {
+          "type": "object",
+          "properties": {
+            "gcsFolder": {
+              "type": "string"
+            }
+          },
+          "required": ["gcsFolder"]
+        },
+        "tilesets": {
+          "type": "null"
+        },
+        "createdAt": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "alias",
+        "id",
+        "name",
+        "description",
+        "startDate",
+        "endDate",
+        "externalResources",
+        "eventsTable",
+        "tracksTable",
+        "vesselIndex",
+        "supportedEventTypes",
+        "dataDownloadPortalInfo",
+        "tilesets",
+        "createdAt"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "alias": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "startDate": {
+          "type": "string"
+        },
+        "endDate": {
+          "type": "string"
+        },
+        "externalResources": {
+          "type": "object",
+          "properties": {
+            "loiteringNextPortUrl": {
+              "type": "string"
+            },
+            "encountersNextPortUrl": {
+              "type": "string"
+            }
+          },
+          "required": ["loiteringNextPortUrl", "encountersNextPortUrl"]
+        },
+        "eventsTable": {
+          "type": "string"
+        },
+        "tracksTable": {
+          "type": "string"
+        },
+        "vesselIndex": {
+          "type": "string"
+        },
+        "supportedEventTypes": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "dataDownloadPortalInfo": {
+          "type": "null"
+        },
+        "tilesets": {
+          "type": "null"
+        },
+        "createdAt": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "alias",
+        "id",
+        "name",
+        "description",
+        "startDate",
+        "endDate",
+        "externalResources",
+        "eventsTable",
+        "tracksTable",
+        "vesselIndex",
+        "supportedEventTypes",
+        "dataDownloadPortalInfo",
+        "tilesets",
+        "createdAt"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "alias": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "startDate": {
+          "type": "string"
+        },
+        "endDate": {
+          "type": "string"
+        },
+        "externalResources": {
+          "type": "object",
+          "properties": {
+            "loiteringNextPortUrl": {
+              "type": "string"
+            },
+            "encountersNextPortUrl": {
+              "type": "string"
+            }
+          },
+          "required": ["loiteringNextPortUrl", "encountersNextPortUrl"]
+        },
+        "eventsTable": {
+          "type": "string"
+        },
+        "tracksTable": {
+          "type": "string"
+        },
+        "vesselIndex": {
+          "type": "string"
+        },
+        "supportedEventTypes": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "dataDownloadPortalInfo": {
+          "type": "null"
+        },
+        "tilesets": {
+          "type": "null"
+        },
+        "createdAt": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "alias",
+        "id",
+        "name",
+        "description",
+        "startDate",
+        "endDate",
+        "externalResources",
+        "eventsTable",
+        "tracksTable",
+        "vesselIndex",
+        "supportedEventTypes",
+        "dataDownloadPortalInfo",
+        "tilesets",
+        "createdAt"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "alias": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "startDate": {
+          "type": "string"
+        },
+        "endDate": {
+          "type": "string"
+        },
+        "externalResources": {
+          "type": "object",
+          "properties": {
+            "loiteringNextPortUrl": {
+              "type": "string"
+            },
+            "encountersNextPortUrl": {
+              "type": "string"
+            }
+          },
+          "required": ["loiteringNextPortUrl", "encountersNextPortUrl"]
+        },
+        "eventsTable": {
+          "type": "string"
+        },
+        "tracksTable": {
+          "type": "string"
+        },
+        "vesselIndex": {
+          "type": "string"
+        },
+        "supportedEventTypes": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "dataDownloadPortalInfo": {
+          "type": "null"
+        },
+        "tilesets": {
+          "type": "array",
+          "items": {}
+        },
+        "createdAt": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "alias",
+        "id",
+        "name",
+        "description",
+        "startDate",
+        "endDate",
+        "externalResources",
+        "eventsTable",
+        "tracksTable",
+        "vesselIndex",
+        "supportedEventTypes",
+        "dataDownloadPortalInfo",
+        "tilesets",
+        "createdAt"
+      ]
+    }
+  ]
+}
