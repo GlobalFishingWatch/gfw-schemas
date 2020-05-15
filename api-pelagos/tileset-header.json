@@ -1,0 +1,247 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "trackFormat": {
+      "type": "string"
+    },
+    "searchable": {
+      "type": "boolean"
+    },
+    "info": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "fields": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "display": {
+                  "type": "string"
+                },
+                "titlePriority": {
+                  "type": "integer"
+                }
+              },
+              "required": ["id", "display", "titlePriority"]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "display": {
+                  "type": "string"
+                },
+                "titlePriority": {
+                  "type": "integer"
+                }
+              },
+              "required": ["id", "display", "titlePriority"]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "display": {
+                  "type": "string"
+                },
+                "titlePriority": {
+                  "type": "integer"
+                }
+              },
+              "required": ["id", "display", "titlePriority"]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "display": {
+                  "type": "string"
+                }
+              },
+              "required": ["id", "display"]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "display": {
+                  "type": "string"
+                }
+              },
+              "required": ["id", "display"]
+            }
+          ]
+        },
+        "source": {
+          "type": "string"
+        }
+      },
+      "required": ["id", "fields", "source"]
+    },
+    "urls": {
+      "type": "object",
+      "properties": {
+        "default": {
+          "type": "array",
+          "items": [
+            {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            }
+          ]
+        },
+        "search": {
+          "type": "array",
+          "items": [
+            {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            }
+          ]
+        },
+        "selection-info": {
+          "type": "array",
+          "items": [
+            {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "required": ["default", "search", "selection-info"]
+    },
+    "deprecated": {
+      "type": "boolean"
+    },
+    "vesselFields": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "display": {
+              "type": "string"
+            },
+            "titlePriority": {
+              "type": "integer"
+            }
+          },
+          "required": ["id", "display", "titlePriority"]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "display": {
+              "type": "string"
+            },
+            "titlePriority": {
+              "type": "integer"
+            }
+          },
+          "required": ["id", "display", "titlePriority"]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "display": {
+              "type": "string"
+            },
+            "titlePriority": {
+              "type": "integer"
+            }
+          },
+          "required": ["id", "display", "titlePriority"]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "display": {
+              "type": "string"
+            }
+          },
+          "required": ["id", "display"]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "display": {
+              "type": "string"
+            }
+          },
+          "required": ["id", "display"]
+        }
+      ]
+    },
+    "endpoints": {
+      "type": "object",
+      "properties": {
+        "tiles": {
+          "type": "string"
+        },
+        "tracks": {
+          "type": "string"
+        },
+        "info": {
+          "type": "string"
+        },
+        "search": {
+          "type": "string"
+        }
+      },
+      "required": ["tiles", "tracks", "info", "search"]
+    }
+  },
+  "required": [
+    "trackFormat",
+    "searchable",
+    "info",
+    "urls",
+    "deprecated",
+    "vesselFields",
+    "endpoints"
+  ]
+}
